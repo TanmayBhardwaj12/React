@@ -3,7 +3,7 @@ import { Card, CardImg, CardImgOverlay,CardTitle, Breadcrumb, BreadcrumbItem } f
 import { Link } from 'react-router-dom';
 
 
-function RenderMenuItem ({dish, onClick}) {
+function RenderMenuItem ({dish }) {
     return (
         <Card>
             <Link to={`/menu/${dish.id}`} >
@@ -44,5 +44,5 @@ function RenderMenuItem ({dish, onClick}) {
             </div>
         );
     }
-
+ 
 export default Menu;
